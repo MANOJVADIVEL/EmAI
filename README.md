@@ -9,8 +9,11 @@ EmAI is a smart healthcare management system developed with React + Vite, design
 
 ⚙️ Tech Stack:
 React.js + Vite
-Tailwind CSS (or other UI libs)
+JavaScript / JSX
+SQL
+CSS / Tailwind / Bootstrap (based on what you used)
 GitHub Pages for Deployment
+
 
 🚀 Getting Started (Local Setup):
 bash
