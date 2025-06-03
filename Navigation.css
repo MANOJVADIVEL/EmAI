@@ -1,0 +1,78 @@
+/* Navigation Wrapper - Adjusted to Fit Inside the Gray Box */
+.navigation-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Reduced gap to make buttons more compact */
+  padding: 8px; /* Reduced padding to avoid overflow */
+  border-radius: 12px;
+  max-width: fit-content; /* Prevents excess white space */
+  margin: auto; /* Centers inside the gray section */
+}
+
+/* Button Container */
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Modern Button - Reduced Size */
+.nav-button.modern {
+  background: white;
+  width: 50px; /* Reduced width */
+  height: 50px; /* Reduced height */
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover & Active Effects */
+.nav-button.modern:hover {
+  transform: scale(1.05);
+}
+
+.nav-button.modern.active {
+  background:#a3b1c6;
+  box-shadow: 0 0 10px #4c8bf5a6;
+}
+
+.nav-button.modern.active .nav-icon {
+  color: white;
+}
+
+/* Icon Style - Adjusted Size */
+.nav-icon {
+  width: 24px; /* Reduced icon size */
+  height: 24px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+/* Floating Label - Adjusted Position */
+.nav-float-label {
+  position: absolute;
+  top: 60px; /* Reduced distance from button */
+  padding: 4px 10px; /* Smaller padding */
+  border-radius: 999px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 10px; /* Slightly smaller font */
+  font-family:cursive;
+  font-style: italic;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fadeInUp 0.3s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

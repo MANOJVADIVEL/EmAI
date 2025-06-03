@@ -1,0 +1,146 @@
+.medical-container {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .encryption-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .encryption-text {
+    font-size: 14px;
+    color: #16a34a;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .records-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .records-box {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .records-header {
+    background: #f9fafb;
+    padding: 16px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .record-list {
+    padding: 16px;
+  }
+  
+  .record-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .record-item:first-child {
+    border-top: none;
+  }
+  
+  .record-title {
+    font-weight: 500;
+  }
+  
+  .record-meta {
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  .record-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background 0.2s;
+  }
+  
+  .icon-btn:hover {
+    background: #f3f4f6;
+  }
+  
+  .upload-box {
+    background: #eff6ff;
+    border-radius: 8px;
+    padding: 24px;
+  }
+  
+  .upload-form {
+    border: 2px dashed #3b82f6;
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+  }
+  
+  .upload-btn {
+    background: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .upload-btn:hover {
+    background: #1d4ed8;
+  }
+  
